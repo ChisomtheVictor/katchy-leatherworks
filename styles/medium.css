@@ -1,0 +1,58 @@
+@media only screen and (min-width: 560px) {
+    nav button {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0, 0, 0, 0.4);
+    }
+
+    .area-info {
+        display: flex;
+        gap: 1em;
+        flex-direction: row;
+        background-color: #daf373;
+    }
+
+    .area-info section {
+        padding: 2em;
+        border-radius: 25px;
+        text-align: left;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-right: 1em;
+        background-color: white;
+
+    }
+
+    .area-info .area-summary {
+        margin: auto;
+        margin-left: 2em;
+    }
+
+    .contact-drink-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .footer_logos {
+        display: grid;
+        padding: 15px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .flogo {
+        display: flex;
+    }
+
+    .logo-footer {
+        margin-left: 25px;
+    }
+
+}

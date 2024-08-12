@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Kurale&family=Rock+Salt&display=swap');
+
+/* Header */
+.header-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header a img {
+    width: 150px;
+}
+
+/* Navigation */
+nav {
+    background-color: #82b04d;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav button {
+    background-color: transparent;
+    border: none;
+    margin: 0.2rem 2vw;
+    font-size: 2rem;
+    color: black;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0.8rem 2vw;
+    text-decoration: none;
+    color: black;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-size: 2.95rem;
+    transition: 0.5s;
+}
+
+nav ul li a:hover {
+    background-color: white;
+}
+
+nav ul {
+    display: none;
+}
+
+nav ul.open {
+    display: block;
+}
+
+#hamburger-button span:nth-child(1) {
+    display: block;
+}
+
+#hamburger-button span:nth-child(2) {
+    display: none;
+}
+
+#hamburger-button.open span:nth-child(1) {
+    display: none;
+}
+
+#hamburger-button.open span:nth-child(2) {
+    display: block;
+}
+
+/* Main */
+main {
+    margin: 0 20%;
+}
+
+/* Footer */
+footer {
+    background-color: #82b04d;
+    text-align: center;
+    margin: 0;
+    padding: 1rem 0;
+}
+
+/* Hero Section */
+.main-hero {
+    position: relative;
+}
+
+.main-hero img {
+    width: 100%;
+}
+
+#hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+    font-size: 3em;
+    font-family: 'Rock Salt', Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* Area Info */
+.area-info {
+    padding: 20px;
+    background-color: white;
+    border: 2px solid #daf373;
+    word-wrap: break-word;
+}
+
+.area-info section {
+    background-color: #daf373;
+    border: 1px solid orange;
+}
+
+/* Products Section */
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.product-item {
+    text-align: center;
+    margin: 10px;
+}
+
+.product-item img {
+    max-width: 300px;
+    height: auto;
+}
+
+/* Footer Logos and Social Media */
+.logo-footer {
+    max-width: 90px;
+}
+
+.social-img {
+    max-width: 30px;
+    margin: 0 5px;
+}
+
+/* Fonts and Text Styling */
+main p {
+    text-align: center;
+    margin: 0 30px;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: 'Rock Salt', Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Rock Salt', Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Rock Salt', Helvetica, sans-serif;
+}
+
+p {
+    font-family: 'Kurale', 'Times New Roman', Times, serif;
+}
