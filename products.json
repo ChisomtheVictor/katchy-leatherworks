@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Product name 1",
+        "price": 30000,
+        "image": "https://picsum.photos/200"
+    },
+    {
+        "id": 2,
+        "name": "Product name 2",
+        "price": 30000,
+        "image": "https://picsum.photos/200"
+    },
+    {
+        "id": 1,
+        "name": "Product name 3",
+        "price": 30000,
+        "image": "https://picsum.photos/200"
+    },
+    {
+        "id": 1,
+        "name": "Product name 4",
+        "price": 30000,
+        "image": "https://picsum.photos/200"
+    },
+    {
+        "id": 1,
+        "name": "Product name 5",
+        "price": 30000,
+        "image": "https://picsum.photos/200"
+    },
+    {
+        "id": 1,
+        "name": "Product name 6",
+        "price": 30000,
+        "image": "https://picsum.photos/200"
+    }
+]

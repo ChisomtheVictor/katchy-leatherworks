@@ -2,6 +2,17 @@
 
     nav ul li a {
         padding: .5rem 1rem;
+        font-size: 1.7rem;
+    }
+    
+    .hero span{
+        font-size: 2rem;
+    }
+    .hero button{
+        font-size: 2rem;
     }
 
+    .products{
+        padding-top: 0;
+    }
 }
