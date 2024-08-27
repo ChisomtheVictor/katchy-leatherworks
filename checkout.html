@@ -16,10 +16,6 @@
     <link href="styles/medium.css" rel="stylesheet">
     <!-- enhance-desktop -->
     <link href="styles/large.css" rel="stylesheet">
-    <link rel="icon" href="hp-favicon.ico" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cardo&family=Kurale&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -38,9 +34,9 @@
                 <ul class="navList">
                     <li><a href="./index.html">Home</a></li>
                     <li><a href="./products-page.html">Products</a></li>
-                    <li><a href="./blog.html">Blog</a></li>
-                    <li><a href="#about-us">About Us</a></li>
-                    <li><a href="#footer">Contact</a></li>
+                    <li><a href="./products.html">Blog</a></li>
+                    <li><a href="./about-us.html">About Us</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
                 </ul>
             </div>
             <div class="icon-cart">
@@ -49,67 +45,68 @@
             </div>
         </nav>
     </header>
-    <div class="hero">
-
-        <img src="images/katchyleatherworks-hero-img.jpg" alt="Handcrafted Leather Goods">
-
-        <span>
-            <h1 id="hero-text">Katchyway Leatherworks</h1>
-            <h3>Quality in Elegance</h3>
-        </span>
-        <button><a href=""></a>BUY NOW</button>
-    </div>
-    <main>
-        <div class="cart">
-            <h2>CART</h2>
-            <div class="listCart">
-                <div class="items">
-
-                </div>
-            </div>
-            <div class="buttons">
-                <div class="close">CLOSE</div>
-                <div class="checkout">
-                    <a href="checkout.html">CHECKOUT</a>
+    <div class="container">
+        <div class="checkoutLayout">
+            <div class="returnCart">
+                <a href="products-page.html">Keep Shopping</a>
+                <h1>List of Products in Cart</h1>
+                <div class="listCart">
+                    <!-- Cart items will be dynamically populated here -->
                 </div>
             </div>
 
-        </div>
-        <div id="about-us">
+            <div class="right">
+                <h1>Checkout</h1>
 
-            <h2>About Us</h2>
-            <p>Welcome to Katchyway Leatherworks, a premier leather goods manufacturer based in Nigeria. Founded by
-                Adam Inyang, we specialize in high-quality leather products including bags, wallets, belts, and
-                accessories. Our mission is to create stylish, durable, and affordable leather goods that meet the
-                needs of modern consumers, while promoting ethical and sustainable practices in leatherwork.</p>
-            <p>Our vision is to become a leading brand in the leather industry, renowned for our craftsmanship,
-                innovation, and commitment to sustainability. We pride ourselves on our values of craftsmanship,
-                quality, sustainability, and customer satisfaction, targeting professionals, fashion enthusiasts,
-                and individuals who appreciate artisanal craftsmanship.</p>
+                <div class="form">
+                    <div class="group">
+                        <label for="name">Full Name</label>
+                        <input type="text" name="name" id="name" required>
+                    </div>
 
-        </div>
-        <section class="featuredProducts">
-            <h3>Top Sellers</h3>
-            <div class="featuredProducts-container">
-                <div class="listFeaturedProduct">
-                    <div class="featured-product-item">
-                        <img src="https://picsum.photos/200" alt="Product Image">
-                        <h2>Product Name</h2>
-                        <div class="featuredProductPrice">NGN30000</div>
-                        <button class="featuredProductsButton"><a href="products-page.html">Shop Now</a></button>
+                    <div class="group">
+                        <label for="phone">Phone Number</label>
+                        <input type="text" name="phone" id="phone" required>
+                    </div>
+
+                    <div class="group">
+                        <label for="address">Address</label>
+                        <input type="text" name="address" id="address" required>
+                    </div>
+
+                    <div class="group">
+                        <label for="country">Country</label>
+                        <input type="text" name="country" id="country" required>
+                    </div>
+
+                    <div class="group">
+                        <label for="city">City</label>
+                        <input type="text" name="city" id="city" required>
                     </div>
                 </div>
+
+                <div class="return">
+                    <div class="row">
+                        <div>Total Quantity</div>
+                        <div class="totalQuantity">0</div>
+                    </div>
+                    <div class="row">
+                        <div>Total Price</div>
+                        <div class="totalPrice">NGN0</div>
+                    </div>
+                </div>
+                <button class="buttonCheckout">CHECKOUT</button>
             </div>
-        </section>
-    </main>
-    <footer id="footer">
-        <div class="footer1" i>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer1">
             <div class="footer-logo">
                 <img src="images/kl-logo.png" alt="footer logo">
             </div>
             <div class="footer-name">
                 <h3>Katchyway Leatherworks</h3>
-                <p>Operating Hours: Monday – Friday : 9:00 a.m. to 4:30 p.m.</p>
                 <p>Nigeria</p>
             </div>
             <div class="info">
@@ -144,7 +141,9 @@
         </div>
     </footer>
 
-    <script src="scripts/scripts.js"></script>
+    <!-- Include your main script file -->
+    <script src="scripts/checkout.js"></script>
+
 </body>
 
 </html>

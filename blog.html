@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Katchyway Leatherworks</title>
+    <title>Katchyway Leatherworks Blog</title>
 
     <!-- STYLE SHEETS -->
     <!-- normalize -->
@@ -16,15 +16,12 @@
     <link href="styles/medium.css" rel="stylesheet">
     <!-- enhance-desktop -->
     <link href="styles/large.css" rel="stylesheet">
-    <link rel="icon" href="hp-favicon.ico" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cardo&family=Kurale&display=swap" rel="stylesheet">
+    <!-- Custom Blog CSS -->
+    <link href="styles/blog.css" rel="stylesheet">
 </head>
 
 <body>
     <header>
-
         <nav>
             <div>
                 <label class="header-logo">
@@ -38,9 +35,9 @@
                 <ul class="navList">
                     <li><a href="./index.html">Home</a></li>
                     <li><a href="./products-page.html">Products</a></li>
-                    <li><a href="./blog.html">Blog</a></li>
-                    <li><a href="#about-us">About Us</a></li>
-                    <li><a href="#footer">Contact</a></li>
+                    <li><a href="./products.html">Blog</a></li>
+                    <li><a href="./about-us.html">About Us</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
                 </ul>
             </div>
             <div class="icon-cart">
@@ -49,67 +46,48 @@
             </div>
         </nav>
     </header>
-    <div class="hero">
 
-        <img src="images/katchyleatherworks-hero-img.jpg" alt="Handcrafted Leather Goods">
+    <div class="container">
+        <div class="blogLayout">
+            <div class="blogContent">
+                <h1>Welcome to Our Blog</h1>
+                <p>Discover the latest insights, updates, and stories from Katchyway Leatherworks, where craftsmanship
+                    meets innovation.</p>
 
-        <span>
-            <h1 id="hero-text">Katchyway Leatherworks</h1>
-            <h3>Quality in Elegance</h3>
-        </span>
-        <button><a href=""></a>BUY NOW</button>
+                <!-- Blog Post 1 -->
+                <div class="blog-post">
+                    <h2>Embracing Sustainability: Our Journey to Eco-Friendly Leather</h2>
+                    <p class="date">Posted on August 27, 2024</p>
+                    <img src="images/sustainability-blog.jpg" alt="Sustainability in Leather">
+                    <p>At Katchyway Leatherworks, we are committed to sustainability. Discover how we are integrating
+                        eco-friendly practices into our leather production to create products that not only look great
+                        but are also kind to the planet.</p>
+                    <a href="sustainability-blog.html" class="read-more">Read More</a>
+                </div>
+
+                <!-- Blog Post 2 -->
+                <div class="blog-post">
+                    <h2>Craftsmanship Spotlight: The Art of Hand-Stitched Leather Goods</h2>
+                    <p class="date">Posted on August 20, 2024</p>
+                    <img src="images/craftsmanship-blog.jpg" alt="Hand-Stitched Leather Goods">
+                    <p>Explore the meticulous process behind our handcrafted leather goods. From selecting the finest
+                        materials to the final stitch, learn about the artistry that goes into each piece at Katchyway
+                        Leatherworks.</p>
+                    <a href="craftsmanship-blog.html" class="read-more">Read More</a>
+                </div>
+
+                <!-- Additional blog posts can be added here -->
+            </div>
+        </div>
     </div>
-    <main>
-        <div class="cart">
-            <h2>CART</h2>
-            <div class="listCart">
-                <div class="items">
 
-                </div>
-            </div>
-            <div class="buttons">
-                <div class="close">CLOSE</div>
-                <div class="checkout">
-                    <a href="checkout.html">CHECKOUT</a>
-                </div>
-            </div>
-
-        </div>
-        <div id="about-us">
-
-            <h2>About Us</h2>
-            <p>Welcome to Katchyway Leatherworks, a premier leather goods manufacturer based in Nigeria. Founded by
-                Adam Inyang, we specialize in high-quality leather products including bags, wallets, belts, and
-                accessories. Our mission is to create stylish, durable, and affordable leather goods that meet the
-                needs of modern consumers, while promoting ethical and sustainable practices in leatherwork.</p>
-            <p>Our vision is to become a leading brand in the leather industry, renowned for our craftsmanship,
-                innovation, and commitment to sustainability. We pride ourselves on our values of craftsmanship,
-                quality, sustainability, and customer satisfaction, targeting professionals, fashion enthusiasts,
-                and individuals who appreciate artisanal craftsmanship.</p>
-
-        </div>
-        <section class="featuredProducts">
-            <h3>Top Sellers</h3>
-            <div class="featuredProducts-container">
-                <div class="listFeaturedProduct">
-                    <div class="featured-product-item">
-                        <img src="https://picsum.photos/200" alt="Product Image">
-                        <h2>Product Name</h2>
-                        <div class="featuredProductPrice">NGN30000</div>
-                        <button class="featuredProductsButton"><a href="products-page.html">Shop Now</a></button>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer id="footer">
-        <div class="footer1" i>
+    <footer>
+        <div class="footer1">
             <div class="footer-logo">
                 <img src="images/kl-logo.png" alt="footer logo">
             </div>
             <div class="footer-name">
                 <h3>Katchyway Leatherworks</h3>
-                <p>Operating Hours: Monday – Friday : 9:00 a.m. to 4:30 p.m.</p>
                 <p>Nigeria</p>
             </div>
             <div class="info">
@@ -144,7 +122,9 @@
         </div>
     </footer>
 
+    <!-- script -->
     <script src="scripts/scripts.js"></script>
+
 </body>
 
 </html>
