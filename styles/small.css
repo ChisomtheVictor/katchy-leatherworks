@@ -97,11 +97,11 @@ label.header-logo{
 
 .hero span{
     position: absolute;
-    top: 30%;
+    top: 35%;
     left: 0;
     right: 0;
     color: #ffffff;
-    padding: 1rem;
+    padding: 0rem;
     text-align: center;
 }
 .hero button{
@@ -546,15 +546,8 @@ footer {
 .social-networks{
     margin-bottom: .8rem;
 }
-main p {
-    text-align: center;
-    margin-left: 30px;
-    margin-right: 30px;
-    font-size: 18px;
-}
 
 h1 {
-    font-size: 3em;
     font-family: 'Cardo', Arial, Helvetica, sans-serif;
 }
 
